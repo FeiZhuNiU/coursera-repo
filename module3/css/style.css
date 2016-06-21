@@ -1,0 +1,19 @@
+body{
+    background-color: deepskyblue;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+#header-nav{
+    background-color: lightblue;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img{
+    background: url("../images/logo_header.jpg") no-repeat;
+    width: 300px;
+    height: 150px;
+    margin: 10px 15px 10px 0px;
+}
