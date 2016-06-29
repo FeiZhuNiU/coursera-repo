@@ -1,0 +1,34 @@
+/*.navbar-header button.navbar-toggle, .navbar-header .icon-bar {*/
+    /*border: 1px solid #61122f;*/
+/*}*/
+.navbar-brand{
+    font-size: 1.5em;
+}
+nav#header-nav.navbar.navbar-default, div#collapsable-nav.collapse.navbar-collapse{
+    background-color: gray;
+}
+.navbar-brand > span{
+    color: black;
+    font-weight: bold;
+}
+#collapsable-nav{
+
+    width: 100%;
+    background-color: white;
+
+
+}
+.visible-xs{
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.visible-xs a {
+    color: black;
+    text-decoration: none;
+}
+/*.visible-xs a:hover{*/
+    /*text-decoration: none;*/
+/*}*/
