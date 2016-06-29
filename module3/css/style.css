@@ -1,39 +1,41 @@
-body{
+body {
     background-color: deepskyblue;
     font-family: 'Indie Flower', cursive;
     font-size: 40px;
     color: white;
 }
 
-#header-nav{
+#header-nav {
     background-color: coral;
     border-radius: 0;
     border: 0;
 }
 
-#logo-img{
+#logo-img {
     background: url("../images/logo_header.jpg") no-repeat;
     background-size: contain;
     width: 200px;
     height: 150px;
     margin: 10px 15px 10px 0px;
 }
-.navbar-brand{
+
+.navbar-brand {
     padding-top: 25px;
 }
 
-.navbar-brand h1{
+.navbar-brand h1 {
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     /*line-height: .75;*/
 }
-.navbar-brand a:hover, .navbar-brand a:focus{
+
+.navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
 
-.navbar-brand p{
+.navbar-brand p {
     color: #000;
     text-transform: uppercase;
     font-size: .7em;
@@ -44,34 +46,111 @@ body{
     vertical-align: middle;
 }
 
-#nav-list{
+#nav-list {
     margin-top: 10px;
 }
 
-#nav-list a{
+#nav-list a {
     color: darkblue;
     text-align: center;
     font-size: 0.8em;
 }
 
-#nav-list a:hover{
+#nav-list a:hover {
     background: #E7E7E7;
 }
 
-#nav-list a span{
-    font-size: 0.8em;
+#nav-list a span {
+    font-size: 0.5em;
 }
 
-#phone{
+#phone {
     margin-top: 5px;
 }
 
-#phone a{
+#phone a {
     text-align: right;
     padding-bottom: 0;
 }
-#phone div{
+
+#phone div {
     color: #557c3e;
     text-align: right;
     padding-right: 15px;
 }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid darkblue;
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -10px;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #logo-img{
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    .navbar-brand p { /* Kosher cert */
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brand p img { /* Star-K */
+        height: 20px;
+    }
+
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+    /* End Header */
+
+    /* Home Page */
+    .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+    }
+}
+
