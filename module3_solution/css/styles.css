@@ -1,34 +1,54 @@
 /*.navbar-header button.navbar-toggle, .navbar-header .icon-bar {*/
     /*border: 1px solid #61122f;*/
 /*}*/
-.navbar-brand{
-    font-size: 1.5em;
+body{
+    background-color: white;
 }
-nav#header-nav.navbar.navbar-default, div#collapsable-nav.collapse.navbar-collapse{
-    background-color: gray;
-}
-.navbar-brand > span{
+
+h1{
     color: black;
+    font-size: large;
     font-weight: bold;
+    margin-top: 5px;
 }
 #collapsable-nav{
-
-    width: 100%;
-    background-color: white;
-
-
+    margin-bottom: -15px;
 }
-.visible-xs{
+nav#header-nav{
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+}
+#navlist{
+    margin-bottom: 0;
+}
+#nav-list > li{
     text-align: center;
     border-bottom: solid 1px black;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color: white;
 }
 
-.visible-xs a {
+#nav-list a{
     color: black;
     text-decoration: none;
+
 }
-/*.visible-xs a:hover{*/
-    /*text-decoration: none;*/
-/*}*/
+
+.navbar-toggle{
+    margin-top: -40px;
+    clear: both;
+}
+
+.detail-section{
+
+    margin-top: 5px;
+
+}
+.inner-section{
+    background-color: darkgray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
