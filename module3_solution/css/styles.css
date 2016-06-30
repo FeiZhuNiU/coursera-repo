@@ -11,6 +11,9 @@ h1{
     font-weight: bold;
     margin-top: 5px;
 }
+.navbar-header h1{
+    margin-left: 10px;
+}
 #collapsable-nav{
     margin-bottom: -15px;
 }
@@ -43,12 +46,25 @@ nav#header-nav{
 
 .detail-section{
 
-    margin-top: 5px;
+    margin-top: 15px;
+    /*background-color: darkgray;*/
 
+}
+section.detail-section{
+    padding-right: 0;
+    padding-left: 0;
 }
 .inner-section{
     background-color: darkgray;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sub-title{
+    padding-top: 5px;
+}
+.content-details{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
 }
