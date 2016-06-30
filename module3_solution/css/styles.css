@@ -22,6 +22,9 @@ nav#header-nav{
     border-radius: 0;
     border: 0;
 }
+.navbar-toggle{
+    margin-right: 25px;
+}
 #navlist{
     margin-bottom: 0;
 }
